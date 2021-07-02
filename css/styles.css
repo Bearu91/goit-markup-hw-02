@@ -1,0 +1,57 @@
+.blue-logo .black-logo {
+    font-size: 26px;
+    text-decoration: none; 
+}
+.blue-logo {
+    color: #2196f3;
+    font-size: 26px;
+}
+.black-logo {
+    color: #212121;
+    font-size: 26px;
+}
+.white-logo {
+    font-size: 26px;
+    color: #ffffff;
+}
+.hero-background {
+    background-color:#2f303a;
+}
+.hero-text {
+    font-size: 44px;
+    font-weight: 900;
+    color: #ffffff;
+    width: 696px;
+    height: 120px;
+}
+.button-hero {
+    color: #ffffff;
+    background-color: #2196f3 ;
+    width: 200px;
+    height: 50px;
+}
+.lorem-text {
+    font-size: 14px;
+}
+.aboutus-header {
+    font-size: 36px;
+}
+.specialist-name {
+    font-weight: 500;
+}
+.light-background {
+    background-color: #E5E5E5
+}
+.aboutus-background {
+    background-color: #F5F4FA;
+    ;
+}
+.adress-light {
+    color: #ffffff;
+    font-size: 14px;
+}
+.adress-grey {
+    color: #FFFFFF;
+    font-size: 14px;
+    text-decoration: none;
+}
