@@ -5,21 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <title>Webstudio</title>
 </head>
 <body>
     <header>
         <nav>
-            <h2><a href="#"><span class="blue-logo">Web</span><span class="black-logo">Studio</span></a></h2>
+            <h2>
+                <a href="index.html"><span class="blue-logo">Web</span><span class="black-logo">Studio</span></a>
+            </h2>
             <ul>
-                <li><a href="/agency">Agencja</a></li>
-                <li><a href="/portfolio">Portfolio</a></li>
-                <li><a href="/contact">Kontakt</a></li>
+                <li><a class="nav-link" href="/agency">Agencja</a></li>
+                <li><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                <li><a class="nav-link" href="/contact">Kontakt</a></li>
             </ul>
         </nav>
         <div>
-            <span><a href="mailto:mango@mail.pig">mango@mail.pig</a></span>
-            <span><a href="tel:+1112223344">(111) 222-33-44</a></span>
+            <span><a class="nav-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></span>
+            <span><a class="nav-contacts" href="tel:+48111111111">+48 111 111 111</a></span>
         </div>
     </header>
     <main>
@@ -32,36 +37,23 @@
         <section id="text-section" class="light-background">
             <ul>
                 <li>
-                    <p class="lorem-text"><strong>Lorem, ipsum.</strong></p> 
-                    <p class="lorem-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint quidem earum recusandae quam sit rem cumque hic nisi ea.</p>
+                    <h3 class="content-header-text"><strong>Lorem, ipsum.</strong></h3>
+                     
+                    <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint quidem earum recusandae quam sit rem cumque hic nisi ea.</p>
                 </li>
                 <li>
-                    <p class="lorem-text"><strong>Lorem, ipsum.</strong></p> 
-                    <p class="lorem-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint quidem earum recusandae quam sit rem cumque hic nisi ea.</p>
+                    <h3 class="content-header-text"><strong>Lorem, ipsum.</strong></h3> 
+                    <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint quidem earum recusandae quam sit rem cumque hic nisi ea.</p>
                 </li>
                 <li>
-                    <p class="lorem-text"><strong>Lorem, ipsum.</strong></p>
-                    <p class="lorem-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint quidem earum recusandae quam sit rem cumque hic nisi ea.</p>
+                    <h3 class="content-header-text"><strong>Lorem, ipsum.</strong></h3>
+                    <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint quidem earum recusandae quam sit rem cumque hic nisi ea.</p>
                 </li>
                 <li>
-                    <p class="lorem-text"><strong>Lorem, ipsum.</strong></p> 
-                    <p class="lorem-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint quidem earum recusandae quam sit rem cumque hic nisi ea.</p>
+                    <h3 class="content-header-text"><strong>Lorem, ipsum.</strong></h3> 
+                    <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint quidem earum recusandae quam sit rem cumque hic nisi ea.</p>
                 </li>
             </ul>
-            <!-- <div class="text-box">
-                <div class="text-box1">
-                    <p>Lorem, ipsum.</p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint quidem earum recusandae quam sit rem cumque hic nisi ea.</p>
-                </div>
-                <div class="text-box2">
-                    <p>Lorem, ipsum.</p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint quidem earum recusandae quam sit rem cumque hic nisi ea.</p>
-                </div>
-                <div class="text-box3">
-                    <p>Lorem, ipsum.</p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint quidem earum recusandae quam sit rem cumque hic nisi ea.</p>
-                </div>
-                <div class="text-box4">
-                    <p>Lorem, ipsum.</p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint quidem earum recusandae quam sit rem cumque hic nisi ea.</p>
-                </div>
-            </div> -->
         </section>
         <section id="about-us" class="light-background">
             <h2 class="aboutus-header">czymsie zajmujemy</h2>
@@ -77,17 +69,6 @@
                     <img src="./images/box3.jpg" width="370" height="294" alt="czlowiek trzymajaacy w reku tablet z paleta colorow">
                 </li>
             </ul>
-            <!-- <div class="product-box">
-                <div class="product-box1" style="width: 100%; height: 100%;">
-                    <img src="./images/peorductbox1.jpg" alt="programista podczas pisania  kodu spogldajacy na projekt po jego lewej stronie">
-                </div>
-                <div class="product-box2" style="width: 100%; height: 100%;">
-                    <img src="./images/box2.jpg" alt="czlowiek trzymajacy w lewej rece telefon a prawa oblsugujacy laptopa">
-                </div>
-                <div class="product-box3" style="width: 100%; height: 100%;">
-                    <img src="./images/box3.jpg" alt="czlowiek trzymajaacy w reku tablet z paleta colorow">
-                </div>
-            </div> -->
         </section>
         <section id="team" class="aboutus-background">
             <h2 class="aboutus-header">NAsz zesppol</h2>
@@ -95,46 +76,32 @@
                 <li>
                     <img src="./images/teambox1.jpg" width="270" height="260" alt="na zdjeicu widoczny jest czlowiek majazy okulary zarost  ktrotko ostrzyzony  w brazowej koszuli">
                     <p class="specialist-name">John Doe</p>
-                    <p>Product Designer</p>
+                    <p class="specialist-position">Product Designer</p>
                 </li>
                 <li>
                     <img src="./images/teambox2.jpg" width="270" height="260" alt="kobieta o blond wlosach w okularach majaca zalozone rece w marynarce z serdecznym usmiechem">
                     <p class="specialist-name">John Doe</p>
-                    <p>Product Designer</p>
+                    <p class="specialist-position">Frontend Developer</p>
                 </li>
                 <li>
                     <img src="./images/teambox3.jpg" width="270" height="260" alt="mezczyzna krotkoostrzyzony z delikatnym zarostem w niebieskije koszuli patrzacy sie w jego lewa strone">
                     <p class="specialist-name">John Doe</p>
-                    <p>Product Designer</p>
+                    <p class="specialist-position">Marketing</p>
                 </li>
                 <li>
                     <img src="./images/teambox4.jpg" width="270" height="260" alt="mezczynaza w okluarach z dlugim zarostem dlugosc wolosw srednia z zalozonymi rekami na tle budynku ubrany w czarny t-shirt">
                     <p class="specialist-name">John Doe</p>
-                    <p>Product Designer</p>
+                    <p class="specialist-position">UI Designer</p>
                 </li>
             </ul>
-            <!-- <div class="team-box">
-                <div class="team-box1" style="width: 100%; height: 100%;">
-                    <img src="./images/teambox1.jpg" alt="na zdjeicu widoczny jest czlowiek majazy okulary zarost  ktrotko ostrzyzony  w brazowej koszuli">
-                </div>
-                <div class="team-box2" style="width: 100%; height: 100%;">
-                    <img src="./images/teambox2.jpg" alt="kobieta o blond wlosach w okularach majaca zalozone rece w marynarce z serdecznym usmiechem">
-                </div>
-                <div class="team-box3" style="width: 100%; height: 100%;">
-                    <img src="./images/teambox3.jpg" alt="mezczyzna krotkoostrzyzony z delikatnym zarostem w niebieskije koszuli patrzacy sie w jego lewa strone">
-                </div>
-                <div class="team-box4" style="width: 100%; height: 100%;">
-                    <img src="./images/teambox4.jpg" alt="mezczynaza w okluarach z dlugim zarostem dlugosc wolosw srednia z zalozonymi rekami na tle budynku ubrany w czarny t-shirt">
-                </div>
-            </div>  -->
         </section>
     </main>
     <footer>
         <address class="hero-background">
             <a href="#"><span class="blue-logo">Web</span><span class="white-logo">Studio</span></a>
             <p class="adress-light">Lorem ipsum dolor sit amet</p>
-            <p class="adress-grey"><a href="mailto:mango@mail.pig">mango@mail.pig</a></p>
-            <p class="adress-grey"><a href="tel:+1112223344">(111) 222-33-44</a></p>
+            <p><a class="adress-grey" href="mailto:info@devstudio.com">info@devstudio.com</a></p>
+            <p><a class="adress-grey" href="tel:+48111111111">+48 111 111 111</a></p>
         </address>
     </footer>
 </body>

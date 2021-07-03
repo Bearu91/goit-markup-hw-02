@@ -1,19 +1,52 @@
-.blue-logo .black-logo {
-    font-size: 26px;
-    text-decoration: none; 
+a {
+    text-decoration: none;
 }
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+}
+
 .blue-logo {
+    font-family: "Raleway", "Open Sans", sans-serif;
+    font-weight: 700;
     color: #2196f3;
     font-size: 26px;
+    line-height: 1.192;
 }
 .black-logo {
+    font-family: "Raleway", "Open Sans", sans-serif;
+    font-weight: 700;
     color: #212121;
     font-size: 26px;
+    line-height: 1.192;
+    
 }
 .white-logo {
+    font-family: "Raleway", "Open Sans", sans-serif;
+    font-weight: 700;
     font-size: 26px;
     color: #ffffff;
+    line-height: 1.192;
 }
+.nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.nav-link:hover,
+.nav-contacts:hover{
+    color: #2196f3;
+}
+.nav-contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: #757575;
+  }
 .hero-background {
     background-color:#2f303a;
 }
@@ -23,28 +56,57 @@
     color: #ffffff;
     width: 696px;
     height: 120px;
+    line-height: 1.364;
+    letter-spacing: 0.06em;
+    text-align: center;
 }
 .button-hero {
     color: #ffffff;
     background-color: #2196f3 ;
     width: 200px;
     height: 50px;
+    font-weight: 700;
+    line-height: 1.875;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
 }
-.lorem-text {
+.content-header-text {
+    font-weight: 700;
     font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+}
+.content-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 .aboutus-header {
+    font-weight: 700;
     font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+    letter-spacing: 0.03em
 }
 .specialist-name {
     font-weight: 500;
+    line-height: 1.1875;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.specialist-position {
+    line-height: 1.1875;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575
 }
 .light-background {
-    background-color: #E5E5E5
+    background-color: #E5E5E5;
 }
 .aboutus-background {
     background-color: #F5F4FA;
-    ;
 }
 .adress-light {
     color: #ffffff;
@@ -53,5 +115,37 @@
 .adress-grey {
     color: #FFFFFF;
     font-size: 14px;
-    text-decoration: none;
+    opacity: 0.6;
+}
+.adress-grey:hover {
+    color: #2196f3;
+}
+.product-text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.gallery-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    width: 121px;
+    height: 38px;
+    background: #f5f4fa;
+    border-radius: 4px;
+    border-color: #f5f4fa;
+    cursor: pointer;
+}
+.gallery-btn:hover,
+.gallery-btn:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+.product-class {
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
